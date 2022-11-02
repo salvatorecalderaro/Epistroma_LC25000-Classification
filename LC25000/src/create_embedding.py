@@ -82,7 +82,6 @@ def create_triplet_net():
 
     triplet_net.add(resnet152)
     triplet_net.add(tf.keras.layers.Flatten())
-    triplet_net.add(tf.keras.layers.Dense(1024,activation ='relu'))
     triplet_net.add(tf.keras.layers.Dense(emb_size, activation=None)) 
     triplet_net.add(tf.keras.layers.Lambda(lambda x: tf.math.l2_normalize(x, axis=1)))
 
