@@ -1,0 +1,9 @@
+@INPROCEEDINGS{9999098,
+  author={Calderaro, Salvatore and Bosco, Giosuè Lo and Rizzo, Riccardo and Vella, Filippo},
+  booktitle={2022 IEEE Eighth International Conference on Multimedia Big Data (BigMM)}, 
+  title={Deep Metric Learning for Histopathological Image Classification}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={57-64},
+  doi={10.1109/BigMM55396.2022.00016}}
